@@ -8,7 +8,8 @@ public class Main {
         Dogs d1 = new Dogs("Taksa");
         d1.Gav();
 
-        Birds b1 = new Birds();
+        Birds b1 = new Birds("Orel");
         b1.Chiric();
+        System.out.println(b1.Kind);
     }
 }
